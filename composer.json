@@ -1,0 +1,24 @@
+{
+    "name": "krayin/krayin-blade-tracer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@webkul.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webkul\\BladeTracer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\BladeTracer\\Providers\\BladeTracerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
